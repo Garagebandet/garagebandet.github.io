@@ -1,0 +1,68 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Homepage</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+<header> 
+    <div class= "row">
+        
+<center><h1>The Garage</h1><center/>
+
+</div>
+  <div class="container">
+                <ul class="nav">
+                    <li><a href="menyval1.html">About the Band</a></li>
+                    <li><a href="menyval2.html">Instruments</a></li>
+                    <li><a href="menyval3.html">Our Hits</a></li>
+                </ul>
+            </div>
+<div class= "row">
+    <hr>
+</div>
+</header>
+
+<div class="container" />
+<img src ="bilder/jazz-band.jpg" width="100%" />
+</div>
+<div class="row">
+    <hr>
+</div>
+<center> <h3> 
+This is the fanpage for the fantastic band, The Garage
+    </h3><center>
+
+<nav>
+      <ul>
+        <li> <a href="https://www.youtube.com/channel/UC0Tt6xHl5Te70lgN5AOyJYg?view_as=subscriber">
+            <img src="bilder/697037-youtube-512.png" width="5%"> </a>
+        
+      </ul>
+    </nav>
+
+</body>
+</html>
